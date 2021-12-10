@@ -18,6 +18,8 @@ namespace Kolos1
                 Console.WriteLine("3. Rysowanie prostokąta znakiem");
                 Console.WriteLine("4. Wyjście");
                 ConsoleKeyInfo KP = Console.ReadKey();
+                if (KP.Key != ConsoleKey.D1 || KP.Key != ConsoleKey.D2 || KP.Key != ConsoleKey.D3 || KP.Key != ConsoleKey.D4)
+                    Console.WriteLine("Nie ma takiej opcji");
                 if (KP.Key == ConsoleKey.D4) exit = true;
                 // zad 1
                 if (KP.Key == ConsoleKey.D1)
