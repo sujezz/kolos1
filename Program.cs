@@ -64,6 +64,7 @@ namespace Kolos1
                 }
             }
             else Console.WriteLine("Szerokość i wysokość muszą być liczbami a znak nie może być pusty");
+            Console.ReadKey(); // niektórym od razu zamyka konsole
         }
     }
 }
