@@ -27,7 +27,6 @@ namespace Kolos1
                         break;
 
                     case ConsoleKey.D3:
-                        Console.Clear();
                         Zad3();
                         break;
                     default: Console.WriteLine("Nie ma takiej opcji"); break;
@@ -75,7 +74,6 @@ namespace Kolos1
             if (!Regex.IsMatch(email, reg, RegexOptions.IgnoreCase))
             {
                 // if (email.Count(f => f == '@') != 1 || !email.Contains('.') || email[0] != '@') można się bawić...
-
                 Console.WriteLine("Nieprawidłowy email");
             }
             else
