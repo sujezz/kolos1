@@ -73,25 +73,30 @@ namespace Kolos1
                     case ConsoleKey.D3:
                         // zad 3
                         Console.Clear();
-                        Console.WriteLine("Zadanie 3:");
-                        string szerokosc, wysokosc, znak;
-                        Console.WriteLine("Podaj szerokość");
-                        szerokosc = Console.ReadLine();
-                        Console.WriteLine("Podaj wysokość");
-                        wysokosc = Console.ReadLine();
-                        Console.WriteLine("Podaj znak");
-                        znak = Console.ReadLine();
-                        if (int.TryParse(szerokosc, out int x) && int.TryParse(wysokosc, out int y) && znak.Length > 0)
+                        bool jestok = false;
+                        do
                         {
-                            for (int i = 0; i < y; i++)
+                            Console.WriteLine("Zadanie 3:");
+                            string szerokosc, wysokosc, znak;
+                            Console.WriteLine("Podaj szerokość");
+                            szerokosc = Console.ReadLine();
+                            Console.WriteLine("Podaj wysokość");
+                            wysokosc = Console.ReadLine();
+                            Console.WriteLine("Podaj znak");
+                            znak = Console.ReadLine();
+                            if (int.TryParse(szerokosc, out int x) && int.TryParse(wysokosc, out int y) && znak.Length > 0)
                             {
-                                for (int j = 0; j < x; j++)
-                                    Console.Write(znak[0]); // bierze tylko pierwszy wpisany znak
-                                Console.WriteLine();
+                                for (int i = 0; i < y; i++)
+                                {
+                                    for (int j = 0; j < x; j++)
+                                        Console.Write(znak[0]); // bierze tylko pierwszy wpisany znak
+                                    Console.WriteLine();
 
+                                }
+                                jestok = true;
                             }
-                        }
-                        else Console.WriteLine("Szerokość i wysokość muszą być liczbami a znak nie może być pusty");
+                            else Console.WriteLine("Szerokość i wysokość muszą być liczbami a znak nie może być pusty");
+                        } while (jestok == false);
                         break;
                     default: Console.WriteLine("Nie ma takiej opcji"); break;
                 }
