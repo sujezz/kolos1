@@ -1,0 +1,16 @@
+C:\Users\sujez\source\repos\Kolos1\obj\Debug\net5.0\Kolos1.csproj.AssemblyReference.cache
+C:\Users\sujez\source\repos\Kolos1\obj\Debug\net5.0\Kolos1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sujez\source\repos\Kolos1\obj\Debug\net5.0\Kolos1.AssemblyInfoInputs.cache
+C:\Users\sujez\source\repos\Kolos1\obj\Debug\net5.0\Kolos1.AssemblyInfo.cs
+C:\Users\sujez\source\repos\Kolos1\obj\Debug\net5.0\Kolos1.csproj.CoreCompileInputs.cache
+C:\Users\sujez\source\repos\Kolos1\bin\Debug\net5.0\Kolos1.exe
+C:\Users\sujez\source\repos\Kolos1\bin\Debug\net5.0\Kolos1.deps.json
+C:\Users\sujez\source\repos\Kolos1\bin\Debug\net5.0\Kolos1.runtimeconfig.json
+C:\Users\sujez\source\repos\Kolos1\bin\Debug\net5.0\Kolos1.runtimeconfig.dev.json
+C:\Users\sujez\source\repos\Kolos1\bin\Debug\net5.0\Kolos1.dll
+C:\Users\sujez\source\repos\Kolos1\bin\Debug\net5.0\ref\Kolos1.dll
+C:\Users\sujez\source\repos\Kolos1\bin\Debug\net5.0\Kolos1.pdb
+C:\Users\sujez\source\repos\Kolos1\obj\Debug\net5.0\Kolos1.dll
+C:\Users\sujez\source\repos\Kolos1\obj\Debug\net5.0\ref\Kolos1.dll
+C:\Users\sujez\source\repos\Kolos1\obj\Debug\net5.0\Kolos1.pdb
+C:\Users\sujez\source\repos\Kolos1\obj\Debug\net5.0\Kolos1.genruntimeconfig.cache
